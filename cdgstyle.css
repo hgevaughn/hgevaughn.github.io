@@ -1,0 +1,147 @@
+body{
+	background-color: black;
+}
+
+.headline {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-family: helvetica neue;
+    font-size: 3vw;
+    font-weight: bold;
+    color: white;
+}
+
+.bodytext{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    font-family: helvetica neue;
+    font-size: 3vw;
+    font-weight: bold;
+    color: white;
+}
+
+.free{
+	position: absolute;
+	top: 130px;
+	left: 1200px;
+	font-family: helvetica neue;
+    font-size: .7vw;
+    font-weight:;
+    font-style: italic;
+    color: grey;
+
+}
+
+
+.bg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("cdg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.place{
+	position: absolute;
+	top: 170px;
+	left: 30px;
+	font-family: helvetica neue;
+    font-size: 1vw;
+    font-weight: bold;
+    color: white;
+
+}
+.time{
+	position: absolute;
+	top: 190px;
+	left: 30px;
+	font-family: helvetica neue;
+    font-size: 1vw;
+    font-weight: bold;
+    color: white;
+
+}
+
+/*.block{
+	position: absolute;
+	top: 87vh;
+	left: 0px;
+	background-color:  darkred;
+	width: 1450px;
+	height: 100px;
+	opacity: .4;
+}
+*/
+/* COMME DES GARÇON */
+
+
+
+
+
+
+
+
+
+/* TABS TO SCROLL */
+
+.info{
+	position: absolute;
+	top: 92vh;
+	left: 10vw;
+	font-family: helvetica neue;
+    font-size: 1.4vw;
+    font-weight: bold;
+    color: white;
+}
+.info:hover{
+	color: #CC3345
+}
+
+.video{
+	position: absolute;
+	top: 92vh;
+	left: 35vw;
+	font-family: helvetica neue;
+    font-size: 1.4vw;
+    font-weight: bold;
+    color: white;
+}
+.video:hover{
+	color: #CC3345
+}
+
+.tickets{
+	position: absolute;
+	top: 92vh;
+	left: 60vw;
+	font-family: helvetica neue;
+    font-size: 1.4vw;
+    font-weight: bold;
+    color: white;
+    pointer-events: inherit;
+}
+.tickets:hover{
+	color: #CC3345
+}
+.tickets:hover:hover{
+	text-decoration: underline;
+}
+
+.shop{
+	position: absolute;
+	top: 92vh;
+	left: 85vw;
+	font-family: helvetica neue;
+    font-size: 1.4vw;
+    font-weight: bold;
+    color: white;
+}
+.shop:hover{
+	color: #CC3345
+}
