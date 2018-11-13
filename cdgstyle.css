@@ -2,10 +2,17 @@ body{
 	background-color: black;
 }
 
+a{
+color: rgb(255, 255, 255); 
+text-decoration: none;
+}
+a:hover{
+    color: #CC3345
+}
 .headline {
     position: absolute;
-    top: 30px;
-    left: 20px;
+    top: 5vh;
+    left: 1.2vw;
     font-family: helvetica neue;
     font-size: 3vw;
     font-weight: bold;
@@ -14,8 +21,8 @@ body{
 
 .bodytext{
     position: absolute;
-    top: 80px;
-    left: 20px;
+    top: 11vh;
+    left: 1.3vw;
     font-family: helvetica neue;
     font-size: 3vw;
     font-weight: bold;
@@ -49,8 +56,8 @@ body{
 
 .place{
 	position: absolute;
-	top: 170px;
-	left: 30px;
+	top: 22vh;
+	left: 2vw;
 	font-family: helvetica neue;
     font-size: 1vw;
     font-weight: bold;
@@ -59,8 +66,8 @@ body{
 }
 .time{
 	position: absolute;
-	top: 190px;
-	left: 30px;
+	top: 25vh;
+	left: 2vw;
 	font-family: helvetica neue;
     font-size: 1vw;
     font-weight: bold;
@@ -78,15 +85,141 @@ body{
 	opacity: .4;
 }
 */
+
+
 /* COMME DES GARÇON */
 
-
-
-
-
-
-
-
+.c{
+	position: absolute;
+	top: 23vh;
+	left: 20vw;
+	font-family: helvetica neue;
+    font-size: 6vw;
+    font-weight: bold;
+    color: white;
+    cursor: default;
+}
+.c:hover{
+    opacity: 0;
+}
+.o{
+	position: absolute;
+	top: 31vh;
+	left: 24vw;
+	font-family: helvetica neue;
+    font-size: 6vw;
+    font-weight: bold;
+    color: white;
+    cursor: default;
+}
+.o:hover{
+    opacity: 0;
+}
+.m{
+	position: absolute;
+	top: 23vh;
+	left: 29vw;
+	font-family: helvetica neue;
+    font-size: 6vw;
+    font-weight: bold;
+    color: white;
+    cursor: default;
+}
+.m:hover{
+    opacity: 0;
+}
+.m2{
+	position: absolute;
+	top: 25vh;
+	left: 35.3vw;
+	font-family: helvetica neue;
+    font-size: 6vw;
+    font-weight: bold;
+    color: white;
+    cursor: default;
+}
+.m2:hover{
+    opacity: 0;
+}
+.e{
+	position: absolute;
+	top: 40vh;
+	left: 40vw;
+	font-family: helvetica neue;
+    font-size: 6vw;
+    font-weight: bold;
+    color: white;
+    transform: rotate(23deg);
+    cursor: default;
+}
+.e:hover{
+    opacity: 0;
+}
+.d{
+    position: absolute;
+    top: 20vh;
+    left: 45vw;
+    font-family: helvetica neue;
+    font-size: 6vw;
+    font-weight: bold;
+    color: white;
+    transform: rotate(-20deg);
+    cursor: default;
+}
+.d:hover{
+    opacity: 0;
+}
+.e2{
+    position: absolute;
+    top: 14vh;
+    left: 51.2vw;
+    font-family: helvetica neue;
+    font-size: 6vw;
+    font-weight: bold;
+    color: white;
+    transform: rotate(195deg);
+    cursor: default;
+}
+.e2:hover{
+    opacity: 0;
+}
+.s{
+    position: absolute;
+    top: 22vh;
+    left: 56vw;
+    font-family: helvetica neue;
+    font-size: 6vw;
+    font-weight: bold;
+    color: white;
+    transform: rotate(30deg);
+    cursor: default;
+}
+.s:hover{
+    opacity: 0;
+}
+.g{
+    position: absolute;
+    top: 44vh;
+    left: 57vw;
+    font-family: helvetica neue;
+    font-size: 6vw;
+    font-weight: bold;
+    color: white;
+    cursor: default;
+}
+.g:hover{
+    opacity: 0;
+}
+.arçon{
+    position: absolute;
+    top: 36vh;
+    left: 62vw;
+    font-family: helvetica neue;
+    font-size: 6vw;
+    font-weight: bold;
+    color: white;
+    cursor: default;
+}
 
 /* TABS TO SCROLL */
 
@@ -98,6 +231,7 @@ body{
     font-size: 1.4vw;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
 .info:hover{
 	color: #CC3345
@@ -111,9 +245,11 @@ body{
     font-size: 1.4vw;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
 .video:hover{
 	color: #CC3345
+
 }
 
 .tickets{
@@ -125,12 +261,10 @@ body{
     font-weight: bold;
     color: white;
     pointer-events: inherit;
+    cursor: pointer;
 }
 .tickets:hover{
 	color: #CC3345
-}
-.tickets:hover:hover{
-	text-decoration: underline;
 }
 
 .shop{
@@ -141,7 +275,115 @@ body{
     font-size: 1.4vw;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
 .shop:hover{
 	color: #CC3345
+}
+
+
+@media (max-width: 411px) {
+  .headline {
+    position: absolute;
+    top: 75.5vh;
+    left: 1.2vw;
+    font-family: helvetica neue;
+    font-size: 6vw;
+    font-weight: bold;
+    color: white;
+}
+  .bg{
+    background-image: url("cdg2.jpg");
+  }
+
+.bodytext{
+    position: absolute;
+    top: 79vh;
+    left: 1.3vw;
+    font-family: helvetica neue;
+    font-size: 6vw;
+    font-weight: bold;
+    color: white;
+    }
+
+.place{
+    position: absolute;
+    top: 2vh;
+    left: 2vw;
+    font-family: helvetica neue;
+    font-size: 3vw;
+    font-weight: bold;
+    color: white;
+
+}
+.time{
+    position: absolute;
+    top: 4.5vh;
+    left: 2vw;
+    font-family: helvetica neue;
+    font-size: 3vw;
+    font-weight: bold;
+    color: white;
+}
+.tickets{
+    position: absolute;
+    top: 92vh;
+    left: 60vw;
+    font-family: helvetica neue;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: #75726B;
+    pointer-events: inherit;
+    cursor: pointer;
+}
+.tickets:hover{
+    color: #B4B4B2
+}
+.info{
+    position: absolute;
+    top: 92vh;
+    left: 10vw;
+    font-family: helvetica neue;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: #75726B;
+    cursor: pointer;
+}
+.info:hover{
+    color: #B4B4B2;
+}
+.video{
+    position: absolute;
+    top: 92vh;
+    left: 35vw;
+    font-family: helvetica neue;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: #75726B;
+    cursor: pointer;
+}
+.video:hover{
+    color: #B4B4B2
+
+}
+.shop{
+    position: absolute;
+    top: 92vh;
+    left: 85vw;
+    font-family: helvetica neue;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: #75726B;
+    cursor: pointer;
+}
+.shop:hover{
+    color: #B4B4B2
+}
+a{
+color: #75726B; 
+text-decoration: none;
+}
+a:hover{
+    color: #B4B4B2
+}
 }
