@@ -1,0 +1,90 @@
+div:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
+.Pic1{
+	position: absolute;
+	left: 0px;	
+	top: 0px;	
+}
+.Pic2{
+	position: absolute;
+	left: 300px;	
+	top: 0px;	
+}
+.Pic3{
+	position: absolute;
+	left: 600px;	
+	top: 0px;	
+
+}
+.Pic4{
+	position: absolute;
+	left: 800px;	
+	top: 0px;	
+
+}
+.Pic5{
+	position: absolute;
+	left: 1200px;	
+	top: 0px;	
+
+}
+.Pic6{
+	position: absolute;
+	left: 0px;	
+	top: 400px;	
+}
+.Pic7{
+	position: absolute;
+	left: 200px;	
+	top: 400px;	
+
+}
+.Pic8{
+	position: absolute;
+	left: 600px;	
+	top: 400px;	
+}
+.Pic9{
+	position: absolute;
+	left: 0px;	
+	top: 700px;	
+
+}
+.Pic10{
+	position: absolute;
+	left: 600px;	
+	top: 700px;	
+}
+.Pic11{
+	position: absolute;
+	left: 800px;	
+	top: 600px;	
+
+}
+.Pic12{
+	position: absolute;
+	left: 1050px;	
+	top: 600px;	
+
+}
+.Pic13{
+	position: absolute;
+	left: 1200px;	
+	top: 400px;	
+
+}
+.Pic14{
+	position: absolute;
+	left: 1350px;	
+	top: 400px;	
+}
+.Pic15{
+	position: absolute;
+	left: 1270px;	
+	top: 600px;	
+
+}
+
+
