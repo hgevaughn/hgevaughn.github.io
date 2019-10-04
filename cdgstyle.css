@@ -285,7 +285,7 @@ a:hover{
 
 .bio{
 	position: absolute;
-    top: 345vh;
+    top: 335vh;
     left: 60vw;
     font-family: helvetica neue;
     font-size: 1vw;
@@ -296,7 +296,7 @@ a:hover{
 }
 .overview{
 	position: absolute;
-    top: 335vh;
+    top: 325vh;
     left: 60vw;
     font-family: helvetica neue;
     font-size: 3.7vw;
@@ -307,7 +307,7 @@ a:hover{
 }
 .gallery{
 	position: absolute;
-    top: 270vh;
+    top: 260vh;
     left: 60vw;
     font-family: helvetica neue;
     font-size: 3.7vw;
@@ -318,7 +318,7 @@ a:hover{
 }
 .bio2{
 	position: absolute;
-    top: 280vh;
+    top: 270vh;
     left: 60vw;
     font-family: helvetica neue;
     font-size: 1vw;
@@ -352,7 +352,7 @@ a:hover{
 
 img.cdgred{
 	position: absolute;
-    top: 280.5vh;
+    top: 262vh;
     left: 10vw;
     width: 40vw;
     height: 95vh;
@@ -376,7 +376,7 @@ p{
     font-weight: bold;
     text-align: center;
     width: 31vw;
-    line-height: 2;
+    line-height: 1.5;
 }
 
 
