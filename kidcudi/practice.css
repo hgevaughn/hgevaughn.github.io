@@ -1,0 +1,21 @@
+
+body{
+    padding-top: 0px;
+}
+
+.parent {
+    flex-basis: 50%;
+    max-height: 100vh;
+    overflow-y: scroll;
+    border: 1px black;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: auto;
+}
+
+img {
+    color: rgba(white, .5);
+    scroll-snap-align: start;
+    justify-content: flex-start;
+    width: 1000px;
+    height: 2200px;
+}
