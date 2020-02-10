@@ -16,6 +16,6 @@ img {
     color: rgba(white, .5);
     scroll-snap-align: start;
     justify-content: flex-start;
-    width: 1000px;
-    height: 2200px;
+    width: 375px;
+    height: 812px;
 }
