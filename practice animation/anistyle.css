@@ -1,0 +1,40 @@
+.box {
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  background-color: red;
+  animation-name: ani;
+  animation-duration: 5s;
+  animation-iteration-count:infinite;
+  animation-direction: reverse;
+}
+
+.box2 {
+  position: absolute;
+  top: 400px;
+  width: 500px;
+  height: 200px;
+  background-color: blue;
+  animation-name: anim;
+  animation-duration: 5s;
+  animation-iteration-count:infinite;
+  {animation-timing-function: ease;}
+}
+
+@keyframes ani{
+	0% {background-color: red}
+	50%{background-color: blue}
+	100%{background-color: yellow}
+	
+}
+
+@keyframes anim{
+	0% {background-color: green; left: 10px;
+		top: 400px;}
+	50%{background-color: orange; left: 600px;
+		top: 400px;}
+	100%{background-color: pink; left: 550px; top: 10px}
+	
+}
+
+
