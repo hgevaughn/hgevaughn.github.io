@@ -4,6 +4,18 @@ body{
 	padding-right: 10px;
 	background-image: url("sbg.jpg");
 	background-size: fixed;
+	
+}
+
+h4{
+	color: white;
+	font-family: roboto;
+	font-style: oblique; 
+	font-size: 13px;
+	position: relative;
+	top: -20px;
+	font-weight: normal;
+
 }
 
 h1{
@@ -33,7 +45,7 @@ h1, h2{
 }
 .b1{
 	position: absolute;
-	top: 2256px;
+	top: 2297px;
     height: 210px;
 	width: 5px;
 	background-color: #9e4d44;
@@ -41,7 +53,7 @@ h1, h2{
 
 .b2{
 	position: absolute;
-	top: 3510px;
+	top: 3550px;
     height: 75px;
 	width: 5px;
 	background-color: #9e4d44;
@@ -49,7 +61,7 @@ h1, h2{
 
 .kc3box{ 
 	position: absolute;
-	top: 1123px;
+	top: 1148px;
 	height: 120px;
 	width: 5px;
 	background-color: #9e4d44;
@@ -57,7 +69,7 @@ h1, h2{
 
 .kc4box{ 
 	position: absolute;
-	top: 777px;
+	top: 823px;
 	height: 77px;
 	width: 5px;
 	background-color: #9e4d44;
@@ -66,13 +78,13 @@ h1, h2{
 
 .box{ 
 	position: absolute;
-	top: 1340px;
+	top: 1382px;
 	height: 120px;
 	width: 5px;
 	background-color: #9e4d44;
 }
 
-.kc1 {
+.kc1{
 	height: 210px;
 	width: 360px;
 }
@@ -87,7 +99,7 @@ h1, h2{
 }
 
 .kc3{
-	height: 450px;
+	height: 460px;
 	width: 360px;
 }
 .kc5{
@@ -113,10 +125,9 @@ a{
 	line-height: 1.3;
 	color: white;
 	cursor: auto;
-	cursor
-
+	text-decoration: none;
 }
-a:hover, a:link {
+
+a:hover{
   color: #9e4d44;
-  text-decoration: none;
 }
