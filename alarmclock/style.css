@@ -1,0 +1,105 @@
+.dot{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  height:500px;
+  width: 500px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.fall{
+  height:30px;
+  width: 30px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  position:absolute;
+  top: 100px; left: 300px;
+
+  animation-name: anim;
+  animation-duration: 1s;
+  animation-iteration-count:infinite;
+  {animation-timing-function: ease;}
+
+}
+
+@keyframes anim{
+	0%{top: 100px; left: 300px;}
+	
+	100%{top: 900px; left: 300px;}
+}
+
+.fall2{
+  height:30px;
+  width: 30px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  position:absolute;
+  top: 120px; left: 400px;
+
+  animation-delay: .8s;
+  
+  animation-name: anima;
+  animation-duration: 1s;
+  animation-iteration-count:infinite;
+  {animation-timing-function: ease;}
+
+
+}
+
+@keyframes anima{
+	0%{top: 120px; left: 400px;}
+	
+	100%{top: 900px; left: 400px;}
+}
+
+.fall3{
+  height:30px;
+  width: 30px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  position:absolute;
+  top: 150px; left: 200px;
+
+  animation-delay: .8s;
+  
+  animation-name: animat;
+  animation-duration: 1s;
+  animation-iteration-count:infinite;
+  {animation-timing-function: ease;}
+
+
+}
+
+@keyframes animat{
+	0%{top: 150px; left: 200px;}
+	
+	100%{top: 900px; left: 200px;}
+}
+
+.fade{
+  height:30px;
+  width: 30px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  position:absolute;
+  top: 100px; left: 300px;
+
+  animation-delay: 1s;
+  animation-name: ani;
+  animation-duration: 1s;
+  animation-iteration-count:infinite;
+  {animation-timing-function: ease;}
+
+}
+
+@keyframes ani{
+	0%{top: 100px; left: 300px;}
+	
+	100%{top: 900px; left: 300px;}
+}
