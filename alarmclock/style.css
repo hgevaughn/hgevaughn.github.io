@@ -1,105 +1,711 @@
-.dot{
+body{
+  background-color: black;
+}
+
+.error{
+  position: absolute;
+  top: 350px;
+  left: 50px;  
+
+
+  font-family: 'Share Tech Mono';
+  color: rgb(55, 227, 52);
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  
+    animation-name: delay;
+    animation: 
+    typing 3.5s steps(29, end),
+    cursor .75s step-end infinite;
+    animation-delay: 11s;
+}
+
+
+a:link{
+  text-decoration: none;
+}
+
+
+@keyframes delay{
+100%{display: none;}
+0%{display: all;}
+
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes cursor {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+.sqaure {
+  height:63px;
+  width: 63px;
+  background-color: rgb(55, 227, 52);
+
+  animation-fill-mode: forwards;
+}
+
+.one {
+  position: absolute;
+  top: 113px;
+  left: 156px;
+
+  animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+}
+
+.two {
+  position: absolute;
+  top: 79px;
+  left: 206px;
+
+  animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 1s;
+
+}
+.three {
+  position: absolute;
+  top: 79px;
+  left: 269px;
+
+  animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 2s;
+
+}
+.four {
+  position: absolute;
+  top: 79px;
+  left: 330px;
+  animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 2s;
+
+
+}
+.five {
+  position: absolute;
+  top: 113px;
+  left: 379px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: .5s;
+
+
+}
+.six {
+  position: absolute;
+  top: 162px;
+  left: 423px;
+  animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 1s;
+
+
+}
+.seven {
+  position: absolute;
+  top: 194px;
+  left: 455px;
+
+  animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 0s;
+
+}
+.eight {
+  position: absolute;
+  top: 256px;
+  left: 455px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 2s;
+
+
+}
+.nine {
+  position: absolute;
+  top: 319px;
+  left: 455px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 3s;
+
+
+}
+.ten {
+  position: absolute;
+  top: 350px;
+  left: 426px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 4s;
+
+
+}
+.eleven {
+  position: absolute;
+  top: 406px;
+  left: 379px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 1.5s;
+
+
+}
+.twelve {
+  position: absolute;
+  top: 434px;
+  left: 332px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 5s;
+
+
+}
+.thirteen {
+  position: absolute;
+  top: 434px;
+  left: 269px;
+  animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 6s;
+
+
+}
+.fourteen {
+  position: absolute;
+  top: 434px;
+  left: 206px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 5s;
+
+
+}
+.fifteen {
+  position: absolute;
+  top: 406px;
+  left: 156px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 4s;
+
+
+}
+.s16 {
+  position: absolute;
+  top: 350px;
+  left: 113px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 2.5s;
+
+
+}
+.s17 {
+  position: absolute;
+  top: 318px;
+  left: 82px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: .5s;
+
+
+}
+.s18 {
+  position: absolute;
+  top: 255px;
+  left: 82px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 2s;
+
+
+}
+.s19 {
+  position: absolute;
+  top: 193px;
+  left: 82px;
+
+  animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 3.5s;
+
+}
+.s20 {
+  position: absolute;
+  top: 162px;
+  left: 113px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 7s;
+
+
+}
+.s21 {
+  position: absolute;
+  top: 162px;
+  left: 176px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 8s;
+
+
+}
+.s22 {
   position: absolute;
   top: 100px;
-  left: 100px;
-  height:500px;
-  width: 500px;
-  background-color: black;
-  border-radius: 50%;
-  display: inline-block;
-}
+  left: 206px;
 
-.fall{
-  height:30px;
-  width: 30px;
-  background-color: black;
-  border-radius: 50%;
-  display: inline-block;
-  position:absolute;
-  top: 100px; left: 300px;
-
-  animation-name: anim;
+    animation-name: fall;
   animation-duration: 1s;
-  animation-iteration-count:infinite;
-  {animation-timing-function: ease;}
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 9s;
+
+
+}
+.s23 {
+  position: absolute;
+  top: 100px;
+  left: 269px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 10s;
+
+
+}
+.s23 {
+  position: absolute;
+  top: 100px;
+  left: 269px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 6.5s;
+
+}
+.s24 {
+  position: absolute;
+    top: 110px;
+    left: 330px;
+
+  animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 7s;
+
+
+}
+.s25 {
+  position: absolute;
+  top: 162px;
+  left: 238px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 8s;
+
+
+}
+.s26 {
+  position: absolute;
+  top: 162px;
+  left: 298px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 8.5s;
+
+
+}
+.s27 {
+  position: absolute;
+  top: 162px;
+  left: 361px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 6.5s;
+
+
+}
+.s28 {
+  position: absolute;
+  top: 224px;
+  left: 113px;
+
+
+  animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 7.5s;
+
+}
+.s29 {
+  position: absolute;
+  top: 224px;
+  left: 176px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 9.5s;
+
+
+}
+.s30 {
+  position: absolute;
+  top: 224px;
+  left: 238px;
+
+  animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 9s;
+
+
+}
+.s31 {
+  position: absolute;
+  top: 224px;
+  left: 298px;
+
+  animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 10s;
+
+}
+.s32 {
+  position: absolute;
+  top: 224px;
+  left: 361px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 5.5s;
+
+
+}
+.s33 {
+  position: absolute;
+  top: 224px;
+  left: 423px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 9s;
+
+
+}
+.s34 {
+  position: absolute;
+  top: 287px;
+  left: 113px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 6s;
+
+
+}
+.s35 {
+  position: absolute;
+  top: 287px;
+  left: 176px;
+
+  animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 2s;
+
+}
+.s36 {
+  position: absolute;
+  top: 287px;
+  left: 238px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 7.5s;
+
+
+}
+.s37 {
+  position: absolute;
+  top: 287px;
+  left: 300px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 4s;
+
+
+}
+.s38 {
+  position: absolute;
+  top: 287px;
+  left: 363px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 4.5s;
+
+
+}
+.s39 {
+  position: absolute;
+  top: 287px;
+  left: 426px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 7.5s;
+
+
+}
+.s40 {
+  position: absolute;
+  top: 350px;
+  left: 176px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 8.5s;
+
+
+}
+.s41 {
+  position: absolute;
+  top: 350px;
+  left: 238px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 9.5s;
+
+
+}
+.s42 {
+  position: absolute;
+  top: 350px;
+  left: 300px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 9s;
+
+
+}
+.s43 {
+  position: absolute;
+  top: 350px;
+  left: 363px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 4s;
+
+
+}
+.s44 {
+  position: absolute;
+  top: 413px;
+  left: 206px;
+
+  animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 6s;
+
+}
+.s45 {
+  position: absolute;
+  top: 413px;
+  left: 269px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 2s;
+
+
+}
+.s46 {
+  position: absolute;
+  top: 413px;
+  left: 332px;
+
+    animation-name: fall;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-delay: 8.5s;
+
 
 }
 
-@keyframes anim{
-	0%{top: 100px; left: 300px;}
-	
-	100%{top: 900px; left: 300px;}
-}
-
-.fall2{
-  height:30px;
-  width: 30px;
-  background-color: black;
-  border-radius: 50%;
-  display: inline-block;
-  position:absolute;
-  top: 120px; left: 400px;
-
-  animation-delay: .8s;
+@keyframes fall{
+  0% {top: 90%;}
   
-  animation-name: anima;
-  animation-duration: 1s;
-  animation-iteration-count:infinite;
-  {animation-timing-function: ease;}
-
-
+  100% {bottom: 0;} 
 }
 
-@keyframes anima{
-	0%{top: 120px; left: 400px;}
-	
-	100%{top: 900px; left: 400px;}
-}
-
-.fall3{
-  height:30px;
-  width: 30px;
-  background-color: black;
-  border-radius: 50%;
-  display: inline-block;
-  position:absolute;
-  top: 150px; left: 200px;
-
-  animation-delay: .8s;
-  
-  animation-name: animat;
-  animation-duration: 1s;
-  animation-iteration-count:infinite;
-  {animation-timing-function: ease;}
-
-
-}
-
-@keyframes animat{
-	0%{top: 150px; left: 200px;}
-	
-	100%{top: 900px; left: 200px;}
-}
-
-.fade{
-  height:30px;
-  width: 30px;
-  background-color: black;
-  border-radius: 50%;
-  display: inline-block;
-  position:absolute;
-  top: 100px; left: 300px;
-
-  animation-delay: 1s;
-  animation-name: ani;
-  animation-duration: 1s;
-  animation-iteration-count:infinite;
-  {animation-timing-function: ease;}
-
-}
-
-@keyframes ani{
-	0%{top: 100px; left: 300px;}
-	
-	100%{top: 900px; left: 300px;}
+@keyframes flash{
+  from {color: black}
+  to{color: rgb(55, 227, 52);}
 }
