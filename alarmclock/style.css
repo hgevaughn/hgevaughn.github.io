@@ -1,26 +1,45 @@
 body{
   background-color: black;
+
+}
+
+body.alarm{
+  animation-name: flash;
+  animation-direction: alternate;
+  animation-duration: 1s;
+  animation-iteration-count: 4;
+}
+
+@keyframes flash {
+
+  0%{background-color: black;}
+  50%{background-color: rgb(55, 227, 52);}
+  100%{background-color: black;}
 }
 
 .error{
   position: absolute;
   top: 350px;
   left: 50px;  
-
-
+  display: none;
+  width: 0;
   font-family: 'Share Tech Mono';
   color: rgb(55, 227, 52);
   overflow: hidden; 
-  border-right: .15em solid orange; 
   white-space: nowrap; 
   margin: 0 auto; 
   letter-spacing: .15em; 
   
-    animation-name: delay;
-    animation: 
-    typing 3.5s steps(29, end),
+
+}
+
+.error.alarm{
+  border-right: .15em solid white; 
+  display: block;
+      animation: 
+    typing 5s steps(29, end),
     cursor .75s step-end infinite;
-    animation-delay: 11s;
+    animation-delay: 5s;
 }
 
 
@@ -28,12 +47,6 @@ a:link{
   text-decoration: none;
 }
 
-
-@keyframes delay{
-100%{display: none;}
-0%{display: all;}
-
-}
 
 @keyframes typing {
   from { width: 0 }
@@ -703,9 +716,4 @@ a:link{
   0% {top: 90%;}
   
   100% {bottom: 0;} 
-}
-
-@keyframes flash{
-  from {color: black}
-  to{color: rgb(55, 227, 52);}
 }
